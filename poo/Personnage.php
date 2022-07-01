@@ -1,5 +1,5 @@
-<?php 
 
+<?php 
 
 //Pour creer une classe on va utiliser le mot clé class suivi du mom de notre classe, avecune majusculele nom fichier quand il contirentune classedoit prendre une majuscule
 //attention un fichier de class ne contient que les informations relatifs a la class à l'interieur l'affichage se fera sur une autre page
@@ -16,12 +16,14 @@ public $atk = 20;
 
 protected $nom;
 
- // public est la visibilité de notre variable // on en reparlerta plus tard pour  definir ce qu'elle veut dire mais il existe aussi par exemple protected
+ // public est la visibilité de notre variable // on en reparlerta plus tard pour  definir ce qu'elle veut dire mais il existe aussi par exemple protected
 
 
 /* Losrque l'on crée une instance de classe , on fait appel à un constructeur. Si on veut initialiser une donnée dès la création il faudra utiliser la méthode _construct. Grâce à cette méthode, tous les paramètres qui seront passés entre parenthèses permettront de définir les données voulues*/
 
 /*En l'occurence, nous voulons définir le nom de notre personnage dès sa crétion
+
+
 /* on définie functions (méthode) qui losrquel'on fait un echo de la phrase */
 public function __construct($nom)
 {
@@ -130,4 +132,3 @@ $cible->empecher_negatif();
 }
 
 
-?>
