@@ -21,10 +21,6 @@ return $chiffre;
 }
 }
 
-
-
-
-
 // public function sansZero($chiffre)
 // {
     
@@ -54,3 +50,4 @@ return $chiffre .self::$suffix;
 }
 
 
+?>
